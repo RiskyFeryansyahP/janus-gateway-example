@@ -15,3 +15,4 @@ services:
       - "./janus-configuration/janus.jcfg:/usr/local/etc/janus/janus.jcfg"
       - "./janus-configuration/janus.eventhandler.sampleevh.jcfg:/usr/local/etc/janus/janus.eventhandler.sampleevh.jcfg"
       - "./janus-configuration/janus.plugin.echotest.jcfg:/usr/local/etc/janus/janus.plugin.echotest.jcfg"
+      - "./janus-configuration/janus.transport.http.jcfg:/usr/local/etc/janus/janus.transport.http.jcfg"
